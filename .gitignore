@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# Database (regenerated from CSV via tubi_setup.sh)
+data/tubi.db
+
+# Scan artifacts and intermediate CSVs
+data/*.log
+data/*.html
+data/tubi_movies_fast*.csv
+data/tubi_movies_extended_*.csv
+data/tubi_movies_53439-*.csv
+data/tubi_movies_71189-*.csv
+data/tubi_movies_113938-*.csv
+data/tubi_movies_122137-*.csv
+data/tubi_movies.csv
+data/tubi_movies_found.csv
+data/tubi_setup.sh
+
+# PDFs
+*.pdf
+
+# Program blocks (user-local playlists)
+program_blocks/
+
+# OS
+.DS_Store
